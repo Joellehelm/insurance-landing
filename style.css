@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+}
+
+.navBar {
+    width: 100%; 
+    height: 75px;
+}
+
+.logo img {
+  margin-top: 30px;
+  margin-left: 11%;
+}
+
+.rightLinks {
+    float: right;
+    margin-top: -23px;
+    margin-right: 11%;
+    font-family: Karla;
+    font-weight: 700;
+}
+
+.boxed {
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black !important;
+}
+
+.boxed:hover {
+    color: white !important;
+    background-color: hsl(270, 9%, 17%);
+    cursor: pointer;
+}
+ 
+.rightLinks a {
+    margin-left: 40px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.rightLinks a:hover {
+    cursor: pointer;
+    color: hsl(270, 9%, 17%);
+}
+
+.Main {
+    background-color: hsl(256, 26%, 20%);
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.HWWRight {
+  
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.DesktopImgIntro {
+    
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 1%;
+
+}
+
+.leftBoxed {
+    font-weight: 700;
+    font-family: Karla;
+    font-size: 14px;
+    border: solid 1px white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.leftBoxed:hover {
+    color: hsl(270, 9%, 17%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.leftWordsLarge {
+    height: 0;
+    font-weight: 400;
+    font-family: DM Serif Display;
+    font-size: 65px;
+    margin-top: 5%;
+    color: white;
+
+}
+
+.leftSmall {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.leftWordsSmall {
+    height: 10px;
+    font-size: 16px;
+    font-family: Karla !important;
+    color: hsl(0, 0%, 98%);
+}
+
+.leftWords {
+    
+    text-align: left;
+    margin-left: 22%;
+    margin-top: 2px;
+    margin-bottom: 50%;
+    width: 550px;
+}
+
+.whiteLine {
+    margin-top: 24%;
+    margin-left: 22%;
+    height: 5px;
+    width: 20%;
+    border-bottom: solid 1px white;
+}
+
+.leftMidPic {
+    margin-top: -12%;
+}
+
+.greyLine {
+    margin-top: -1%;
+    margin-left: 11%;
+    height: 5px;
+    width: 10%;
+    border-top: solid 1px hsl(273, 4%, 51%)
+}
+
+.largeMidWord {
+    font-weight: 400;
+    font-family: DM Serif Display;
+    font-size: 65px;
+    margin-left: 11%;
+}
+
+.middleBubbles {
+    margin: 5% 11% 7% 11%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: DM Serif Display;
+}
+
+.bubbleKeywords {
+    font-size: 20px;
+}
+
+.bubbleContent {
+    color: hsl(273, 4%, 51%);
+    font-family: Karla !important;
+    font-size: 16px;
+    width: 350px;
+}
+
+.bottomBanner {
+    background-color: hsl(256, 26%, 20%);
+    height: 250px;
+    overflow: hidden;
+    margin: 5% 11% 11% 11%;
+   
+}
+
+.bottomBanner img {
+    position: relative;
+    float: right;
+    margin-top: -11%;
+    margin-right: -3%;
+}
+
+.bannerTitle {
+    position: absolute;
+    margin-top: 1%;
+    color: white;
+    font-weight: 400;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    width: 70%;
+    margin-left: 8%;
+    
+}
+
+.bannerTitle p {
+    height: 0;
+    z-index: 1;
+    
+}
+
+.bannerButton {
+    position: relative;
+    float: right;
+    margin-right: -25%;
+    margin-top: 9%;
+    border: solid 2px white;
+    width: 150px;
+    text-align: center;
+    z-index: 1;
+    color: white
+}
+
+.bannerButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(270, 9%, 17%) !important;
+}
+
+.bannerButton p {
+    font-weight: 400;
+    font-family: Karla;
+    font-size: 12px;
+
+    
+}
+
+.footer {
+    background-color: hsl(0, 0%, 98%);
+  
+}
+
+.footerImg {
+    position: absolute;
+}
+
+.bottomBar {
+    padding-top: 1%;
+}
+
+
+.bottomBarLogo {
+    padding-top: 4%;
+    position: relative;
+    float: left;
+    margin-left: 11%;
+    z-index: 1;
+}
+
+.bottomBarIcons {
+    padding-top: 4%;
+    float: right; 
+    margin-right: 11%;
+}
+
+.bottomBarIcons img {
+    padding-left: 20px;
+}
+
+.bottomBarIcons img:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(0%) contrast(100%);
+    cursor: pointer;
+}
+
+
+.bottomLinks {
+    padding-top: 2%;
+    margin-right: 11%;
+    border-top: solid 1px hsl(273, 4%, 51%);
+    position: relative;
+    z-index: 1;
+    margin-top: 7.4%;
+    margin-left: 11%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    font-weight: 400;
+    font-family: Karla;
+    padding-bottom: 3%;
+}
+
+.bottomLinks p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottomLinkTitle {
+    color: hsl(273, 4%, 51%);
+    margin-bottom: 14%;
+}
+
+.bottomLinkTitle:hover {
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+.bottomLink {
+    color: hsl(256, 26%, 20%);
+}
+
